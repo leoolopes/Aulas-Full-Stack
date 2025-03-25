@@ -1,0 +1,147 @@
+body {
+    font-family: Sans-Serif;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #f7e3b5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid rgb(34, 0, 255)
+    
+    
+}
+
+header h1 {
+    color: green;
+    flex: 1;
+    text-align: center;
+}
+
+.logo {
+    flex: 0 0 auto;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    background-color: #69c;
+    padding: 10px;
+}
+
+nav a {
+    color: darkred;
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+p{
+    color: indigo;
+}
+
+.livros-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.livros-container img {
+    width: 150px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contatos table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    border-color: red;
+    border-style: dashed;
+    color: black ;
+    
+}
+
+#cor{
+    color: red;
+}
+#cor2{
+    color: red;
+}
+.contatos th, .contatos td {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 8px;
+}
+
+.contatos th {
+    background-color: #ffffff;
+}
+
+.referencias {
+    background-color: rgb(255, 255, 37);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+footer {
+    background-color: bisque;
+    padding: 20px 0;
+    border-top: 2px solid #ccc;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 60px;
+    height: auto;
+}
+
+
+.footer-text {
+    flex: 2;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.footer-font {
+    font-size: 14px;
+    color: #555;
+}

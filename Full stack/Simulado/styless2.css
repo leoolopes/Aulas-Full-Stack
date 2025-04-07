@@ -1,0 +1,74 @@
+.caixa {
+    background-color: purple;
+    padding: 20px;
+    width: 60px;
+    height: 90px;
+    color: white;
+    font-weight: bold;
+    text-align:center ;
+}
+
+#txt1 {
+    font-size: small;
+}
+
+#txt2 {
+    font-size: large;
+}
+
+#txt3 {
+    font-size: large;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+#img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+}
+
+.imgcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img3{
+    top: -30px;
+    position: relative;
+}
+
+#img4{
+    position: absolute;
+    top: 490px;
+    left: 1010px;
+}
+
+#txt4{
+    position: absolute;
+    top: 540px;
+    left: 730px;
+}
+
+.link{
+    
+    text-align: center;
+}
+
+#centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+}
